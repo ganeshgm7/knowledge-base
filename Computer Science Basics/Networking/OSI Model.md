@@ -1,4 +1,4 @@
-# OSI Model Overview
+# OSI Model
 
 The OSI (Open Systems Interconnection) model, created by the ISO in 1984, is a conceptual framework used to understand and standardize how data is transmitted over a network. It divides the communication process into seven distinct layers, each handling specific functions, ensuring that devices across different networks can communicate seamlessly.
 
