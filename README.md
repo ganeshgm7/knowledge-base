@@ -4,10 +4,12 @@
 ## Structure
 
 - **Computer Science Basics**
-  - [Networking](./Computer Science Basics/Networking)
+  - [Networking](./Computer-Science-Basics/Networking)
+    - [OSI Model](./Computer-Science-Basics/Networking/OSI-Model.md)
 - **Cloud Computing**
-  - [Cloud Fundamentals](./Cloud Computing/Cloud Fundamentals)
-  - [AWS](./Cloud Computing/AWS)
+  - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
+  - [AWS](./Cloud-Computing/AWS)
+
 
 
 ## Contributions
