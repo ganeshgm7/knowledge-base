@@ -16,7 +16,10 @@ The OSI (Open Systems Interconnection) model, created by the ISO in 1984, is a c
 
 When transferring information from one device to another, data travels down through the seven layers at the sender’s end and then climbs back up the seven layers at the receiver’s end. Each layer adds specific information to ensure the data reaches its destination correctly, and these steps are reversed upon arrival.
 
-![OSI Model Flows](../Images/OSI-Model-Flow.png)
+<p align="center">
+  <img src="../../Images/OSI-Model-Flow.png" alt="OSI Model Flows">
+</p>
+
 
 ### Example: Luffy Sends an E-mail to His Friend Zoro
 
