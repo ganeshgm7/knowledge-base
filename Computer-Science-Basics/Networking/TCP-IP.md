@@ -1,4 +1,4 @@
-# TCP/IP Model Overview
+# TCP/IP Model
 
 The TCP/IP model, also known as the Internet Protocol Suite, is a conceptual framework used to describe the functions of a networking system. It is the foundation of the modern internet, enabling communication between computers across various networks. TCP/IP stands for Transmission Control Protocol/Internet Protocol.
 
