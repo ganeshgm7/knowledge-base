@@ -6,7 +6,6 @@ The TCP/IP model, also known as the Internet Protocol Suite, is a conceptual fra
 
 TCP/IP is responsible for transferring data between devices, ensuring that the data sent by one computer is received accurately by another. To maintain accuracy, TCP/IP breaks the data into smaller packets, which are reassembled at the destination. This process ensures the information arrives correctly. TCP/IP is widely used in the real-world internet, where various physical media and network technologies exist. Instead of being tied to a specific physical setup, the TCP/IP model is flexible, allowing it to work with different physical implementations.
 
-
 <p align="center">
   <img src="../../Images/TCP-IP.webp" alt="TCP IP">
 </p>
