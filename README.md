@@ -6,10 +6,11 @@
 - **Computer Science Basics**
   - [Networking](./Computer-Science-Basics/Networking)
     - [OSI Model](./Computer-Science-Basics/Networking/OSI-Model.md)
-    - [OSI Model](./Computer-Science-Basics/Networking/TCP-IP.md)
-    - [OSI Model](./Computer-Science-Basics\Networking\IPv4-IPv6.md)
-    - [OSI Model](./Computer-Science-Basics\Networking\ARP-Address-Resolution-Protocol.md)
-    - [OSI Model](./Computer-Science-Basics\Networking\NAT-Network-Address-Translation.md)
+    - [TCP IP](./Computer-Science-Basics/Networking/TCP-IP.md)
+    - [IPv4 and IPv6](./Computer-Science-Basics\Networking\IPv4-IPv6.md)
+    - [Address Resolution Protocol (ARP)](./Computer-Science-Basics\Networking\ARP-Address-Resolution-Protocol.md)
+    - [Network Address Translation (NAT)](./Computer-Science-Basics\Networking\NAT-Network-Address-Translation.md)
+    - [SSL/TLS](./Computer-Science-Basics\Networking\SSL-TLS.md)
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
   - [AWS](./Cloud-Computing/AWS)

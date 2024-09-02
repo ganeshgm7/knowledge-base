@@ -1,4 +1,4 @@
-# NAT (Network Address Translation)
+# Network Address Translation (NAT)
 
 NAT stands for Network Address Translation. It is a networking technique used to map multiple private IP addresses within a local network to a single public IP address for external communication over the Internet. NAT is primarily designed to address the shortage of IPv4 addresses and adds a layer of security by hiding internal network structures from the outside world.
 
