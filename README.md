@@ -1,16 +1,19 @@
 # Knowledge Base
 
-
 ## Structure
 
 - **Computer Science Basics**
   - [Networking](./Computer-Science-Basics/Networking)
     - [OSI Model](./Computer-Science-Basics/Networking/OSI-Model.md)
     - [TCP IP](./Computer-Science-Basics/Networking/TCP-IP.md)
-    - [IPv4 and IPv6](./Computer-Science-Basics\Networking\IPv4-IPv6.md)
-    - [Address Resolution Protocol (ARP)](./Computer-Science-Basics\Networking\ARP-Address-Resolution-Protocol.md)
-    - [Network Address Translation (NAT)](./Computer-Science-Basics\Networking\NAT-Network-Address-Translation.md)
-    - [SSL/TLS](./Computer-Science-Basics\Networking\SSL-TLS.md)
+    - [IPv4 and IPv6](./Computer-Science-Basics/Networking/IPv4-IPv6.md)
+    - [Address Resolution Protocol (ARP)](./Computer-Science-Basics/Networking/ARP-Address-Resolution-Protocol.md)
+    - [Network Address Translation (NAT)](./Computer-Science-Basics/Networking/NAT-Network-Address-Translation.md)
+    - [Border Gateway Protocol (BGP)](./Computer-Science-Basics/Networking/BGP-Border-Gateway-Protocol.md)
+  - [Networking](./Computer-Science-Basics/Security)
+    - [SSL/TLS](./Computer-Science-Basics/Security/SSL-TLS.md)
+    - [IPSec VPN](./Computer-Science-Basics/Security/IPSec-VPN.md)
+  - [Networking](./Computer-Science-Basics/Encryption)
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
   - [AWS](./Cloud-Computing/AWS)
