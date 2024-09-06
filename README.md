@@ -15,6 +15,8 @@
   - [Security](./Computer-Science-Basics/Security)
     - [SSL/TLS](./Computer-Science-Basics/Security/SSL-TLS.md)
     - [IPSec VPN](./Computer-Science-Basics/Security/IPSec-VPN.md)
+    - [DDoS Attack](./Computer-Science-Basics/Security/DDoS-Attack.md)
+    - [Firewall](./Computer-Science-Basics/Security/Firewall.md)
   - [Encryption](./Computer-Science-Basics/Encryption)
 
 - **Cloud Computing**
