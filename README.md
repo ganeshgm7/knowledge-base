@@ -1,7 +1,5 @@
 # Knowledge Base
 
-## Structure
-
 - **Computer Science Basics**
   - [Networking](./Computer-Science-Basics/Networking)
     - [OSI Model](./Computer-Science-Basics/Networking/OSI-Model.md)
@@ -12,6 +10,8 @@
     - [Address Resolution Protocol (ARP)](./Computer-Science-Basics/Networking/ARP-Address-Resolution-Protocol.md)
     - [Network Address Translation (NAT)](./Computer-Science-Basics/Networking/NAT-Network-Address-Translation.md)
     - [Border Gateway Protocol (BGP)](./Computer-Science-Basics/Networking/BGP-Border-Gateway-Protocol.md)
+    - [Domain Name System (DNS)](./Computer-Science-Basics/Networking/DNS-Domain-Name-System.md)
+    - [Domain Name System Security Extensions (DNSSEC)](./Computer-Science-Basics/Networking/DNSSEC-Domain-Name-System-Security-Extensions.md)
   - [Security](./Computer-Science-Basics/Security)
     - [SSL/TLS](./Computer-Science-Basics/Security/SSL-TLS.md)
     - [IPSec VPN](./Computer-Science-Basics/Security/IPSec-VPN.md)
@@ -22,7 +22,6 @@
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
   - [AWS](./Cloud-Computing/AWS)
-
 
 
 ## Contributions
