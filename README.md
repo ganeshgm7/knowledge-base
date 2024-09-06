@@ -17,6 +17,10 @@
     - [IPSec VPN](./Computer-Science-Basics/Security/IPSec-VPN.md)
     - [DDoS Attack](./Computer-Science-Basics/Security/DDoS-Attack.md)
     - [Firewall](./Computer-Science-Basics/Security/Firewall.md)
+    - [Encryption](./Computer-Science-Basics/Security/Encryption.md)
+    - [Steganography](./Computer-Science-Basics/Security/Steganography.md)
+    - [Hashing and Salting](./Computer-Science-Basics/Security/Hashing-Salting.md)
+    - [Digital Signatures](./Computer-Science-Basics/Security/Digital-Signatures.md)
   - [Encryption](./Computer-Science-Basics/Encryption)
 
 - **Cloud Computing**
