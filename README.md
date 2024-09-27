@@ -24,7 +24,8 @@
   - [Disaster Recovery](./Computer-Science-Basics/Disaster-Recovery)
     - [Disaster Recovery (DR)](./Computer-Science-Basics/Disaster-Recovery/Disaster-Recovery-Overview.md)
     - [Recovery Point Objective (RPO) & Recovery Time Objective (RTO)](./Computer-Science-Basics/Disaster-Recovery/RPO-RTO.md)
-
+- **Computer Science Basics**
+  - [SQL Interview Questions](./SQL/Interview-Questions.md)
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
   - [AWS](./Cloud-Computing/AWS)
