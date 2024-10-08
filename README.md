@@ -10,6 +10,7 @@
     - [Address Resolution Protocol (ARP)](./Computer-Science-Basics/Networking/ARP-Address-Resolution-Protocol.md)
     - [Network Address Translation (NAT)](./Computer-Science-Basics/Networking/NAT-Network-Address-Translation.md)
     - [Border Gateway Protocol (BGP)](./Computer-Science-Basics/Networking/BGP-Border-Gateway-Protocol.md)
+    - [How Domain Works](./Computer-Science-Basics/Networking/How-Domain-Works.md)
     - [Domain Name System (DNS)](./Computer-Science-Basics/Networking/DNS-Domain-Name-System.md)
     - [Domain Name System Security Extensions (DNSSEC)](./Computer-Science-Basics/Networking/DNSSEC-Domain-Name-System-Security-Extensions.md)
   - [Security](./Computer-Science-Basics/Security)
@@ -24,7 +25,7 @@
   - [Disaster Recovery](./Computer-Science-Basics/Disaster-Recovery)
     - [Disaster Recovery (DR)](./Computer-Science-Basics/Disaster-Recovery/Disaster-Recovery-Overview.md)
     - [Recovery Point Objective (RPO) & Recovery Time Objective (RTO)](./Computer-Science-Basics/Disaster-Recovery/RPO-RTO.md)
-- **Computer Science Basics**
+- **SQL**
   - [SQL Interview Questions](./SQL/Interview-Questions.md)
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
