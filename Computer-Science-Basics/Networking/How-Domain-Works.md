@@ -57,6 +57,12 @@ myshop.com -> 192.168.1.100
 
 This tells DNS servers where to send users who type **myshop.com** into their browser.
 
+**AAAA Record**: Maps a domain to an IPv6 address. For example:
+
+myshop.com -> 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+This tells DNS servers where to send users to the domain using IPv6 addresses.
+
 - **CNAME Record**: Maps one domain to another domain. For example:
 
 www.myshop.com -> myshop.com
