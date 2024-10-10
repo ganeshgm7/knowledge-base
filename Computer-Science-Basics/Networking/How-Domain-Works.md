@@ -71,11 +71,27 @@ This allows traffic directed to `www.myshop.com` to be forwarded to the main dom
 
 - **MX Record**: Specifies which mail server is responsible for handling email for your domain. For example:
 
+myshop.com -> mailserver.myshop.com
+
+- **TXT Record**: Stores arbitrary text, often used for verification or email security. For example:
+
+myshop.com -> "v=spf1 include:_spf.google.com ~all"
+
+This TXT record helps secure email by specifying which mail servers are allowed to send email for your domain.
 
 These DNS records are stored in the **hosted zone** for **myshop.com**.
 
 ### Step 3: DNS Propagation
 Once you configure the DNS records, it takes time for these changes to propagate across the internet. **DNS propagation** refers to the period during which the updated DNS records are distributed to all DNS servers worldwide. This typically takes a few minutes to a few hours.
+
+### Step 4: TTL (Time to Live)
+**TTL (Time to Live)** is a setting in DNS records that tells DNS resolvers how long to cache a record before checking for updates. For example, if the TTL is set to `3600` seconds (1 hour), the DNS resolver will cache the information for 1 hour before querying the authoritative name server again. Shorter TTLs allow quicker updates, while longer TTLs reduce DNS query traffic.
+
+Example:
+myshop.com -> 3600 IN A 192.168.1.100
+
+This TTL value tells DNS resolvers to cache the IP address for 1 hour.
+
 
 ## 5. Accessing myshop.com: How DNS Resolution Works
 
