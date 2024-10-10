@@ -125,3 +125,20 @@ If you’re unhappy with your current registrar, you can transfer **myshop.com**
 
 ### PIR (Public Interest Registry)
 The **Public Interest Registry (PIR)** is a non-profit organization responsible for managing the **.org** top-level domain (TLD). While not directly related to **myshop.com**, it plays a similar role for domains that use the `.org` extension.
+
+# How Your Browser Finds the Name Server for a Domain
+
+- **Check Cache**: First, your computer checks if it already knows the IP address for `myshop.com` from a previous visit (stored in its cache). If it doesn't, it proceeds to the next step.
+
+- **Ask a DNS Resolver**: Your browser asks a DNS resolver (usually provided by your internet provider) to help find the IP address for `myshop.com`.
+
+- **Contact Root Servers**: The resolver asks the root DNS servers (top of the DNS hierarchy) for guidance. These servers don’t know the exact IP but know where to find the `.com` domains.
+
+- **Ask .com Servers**: The resolver then asks the `.com` TLD servers for the name servers responsible for `myshop.com`.
+
+- **Find Name Servers**: The `.com` servers return the name servers responsible for `myshop.com` (e.g., `ns1.exampledns.com`).
+
+- **Get IP from Name Servers**: The resolver contacts the name servers for `myshop.com`, which provide the actual IP address of the website.
+
+- **Connect to Website**: Once your browser gets the IP address, it can connect to the server and load the website.
+
