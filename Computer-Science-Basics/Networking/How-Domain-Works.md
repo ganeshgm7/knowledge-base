@@ -103,7 +103,7 @@ When a user enters **myshop.com** in the address bar, their browser doesn’t kn
 ### Step 2: DNS Lookup Process
 - **Recursive Resolver**: The browser first contacts a recursive DNS resolver, typically provided by the user’s Internet Service Provider (ISP).
 
-- **Root DNS Servers**: The recursive resolver then queries the root DNS servers, which point the resolver to the **TLD name servers** (for `.com` in this case).
+- **Root DNS Servers**: The recursive resolver then queries one of the 13 DNS root servers. These root servers don't have the exact IP address but point the resolver to the correct TLD name servers (for .com in this case).
 
 - **TLD Name Servers**: The TLD name servers know which **name servers** are responsible for **myshop.com** and direct the query to those specific name servers (e.g., `ns1.exampledns.com`).
 
