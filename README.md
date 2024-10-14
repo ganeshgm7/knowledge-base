@@ -29,6 +29,8 @@
   - [SQL Interview Questions](./SQL/Interview-Questions.md)
 - **Cloud Computing**
   - [Cloud Fundamentals](./Cloud-Computing/Cloud-Fundamentals)
+    - [What is Cloud Computing](./Cloud-Computing/Cloud-Fundamentals/What-is-Cloud-Computing.md)
+    - [Types of Cloud Computing Services](./Cloud-Computing/Cloud-Fundamentals/Types-of-Cloud-Computing-Services.md)
   - [AWS](./Cloud-Computing/AWS)
 
 
