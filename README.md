@@ -25,6 +25,9 @@
   - [Disaster Recovery](./Computer-Science-Basics/Disaster-Recovery)
     - [Disaster Recovery (DR)](./Computer-Science-Basics/Disaster-Recovery/Disaster-Recovery-Overview.md)
     - [Recovery Point Objective (RPO) & Recovery Time Objective (RTO)](./Computer-Science-Basics/Disaster-Recovery/RPO-RTO.md)
+- **Programming Language**
+  - [C#](./Programming-Language/C#)
+    - [C Sharp Coding Conventions and Best Practices](./Programming-Language/C#/C-Sharp-Coding-Conventions-and-Best-Practices.md)
 - **SQL**
   - [SQL Interview Questions](./SQL/Interview-Questions.md)
 - **Cloud Computing**
@@ -32,8 +35,9 @@
     - [What is Cloud Computing](./Cloud-Computing/Cloud-Fundamentals/What-is-Cloud-Computing.md)
     - [Types of Cloud Computing Services](./Cloud-Computing/Cloud-Fundamentals/Types-of-Cloud-Computing-Services.md)
   - [AWS](./Cloud-Computing/AWS)
-
-
+- **Artificial Intelligence (AI) & Machine Learning (ML)**
+  - [Basics of AI](./Artificial-Intelligence-(AI)/Basics-of-AI)
+    - [Artificial Intelligence Overview & Key Terms](./Artificial-Intelligence-(AI)/Basics-of-AI/Artificial-Intelligence-Overview-and-Key-Terms.md)
 
 ## Contributions
 
