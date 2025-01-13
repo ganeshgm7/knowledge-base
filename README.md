@@ -38,9 +38,16 @@
 - **Artificial Intelligence (AI) & Machine Learning (ML)**
   - [Basics of AI](./Artificial-Intelligence-(AI)/Basics-of-AI)
     - [Artificial Intelligence Overview & Key Terms](./Artificial-Intelligence-(AI)/Basics-of-AI/Artificial-Intelligence-Overview-and-Key-Terms.md)
+    - [Prompt Engineering](./Artificial-Intelligence-(AI)/Basics-of-AI/Prompt-Engineering.md)
   - [AI in Cloud Computing](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing)
     - [AWS](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS)
+      - [Amazon SageMaker](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Amazon-SageMaker.md)
       - [Generative AI and Amazon Bedrock](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Generative-AI-and-Amazon-Bedrock.md)
+      - [Amazon Q](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Amazon-Q.md)
+      - [AWS Managed AI Services](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/AWS-Managed-AI-Services.md)
+      - [AI Challenges and Responsibilities](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/AI-Challenges-and-Responsibilities.md)
+      - [Security and Privacy in AI Systems](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Security-and-Privacy-in-AI-Systems.md)
+      - [AI Governance and Compliance](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Governance-and-Compliance.md)
 
 ## Contributions
 

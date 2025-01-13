@@ -106,7 +106,6 @@ Amazon Bedrock is a fully managed AWS service that simplifies building and scali
       input_text="Explain the benefits of renewable energy."
   )
   print(response)
-'''
 
 ## Fine-Tuning Models
 
