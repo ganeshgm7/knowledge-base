@@ -38,6 +38,9 @@
 - **Artificial Intelligence (AI) & Machine Learning (ML)**
   - [Basics of AI](./Artificial-Intelligence-(AI)/Basics-of-AI)
     - [Artificial Intelligence Overview & Key Terms](./Artificial-Intelligence-(AI)/Basics-of-AI/Artificial-Intelligence-Overview-and-Key-Terms.md)
+  - [AI in Cloud Computing](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing)
+    - [AWS](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS)
+      - [Generative AI and Amazon Bedrock](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Generative-AI-and-Amazon-Bedrock.md)
 
 ## Contributions
 
