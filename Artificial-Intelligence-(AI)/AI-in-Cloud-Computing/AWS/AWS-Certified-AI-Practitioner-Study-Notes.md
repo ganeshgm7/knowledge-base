@@ -1,16 +1,13 @@
-#AWS Certified AI Practitioner Study Notes#
+# AWS Certified AI Practitioner Study Notes
 
-The three main types of machine learning are ##supervised learning, unsupervised learning, and deep learning.##
+The three main types of machine learning are ##supervised learning, unsupervised learning, and deep learning.
 
-##Supervised learning## 
+## Supervised learning
 
-*   Logistic regression 
-    
-*   Linear regression 
-    
-*   Decision tree
-    
-*   Neural network 
+    - Logistic regression
+    - Linear regression 
+    - Decision tree
+    - Neural network 
     
 
 ##Semi-supervised learning## 
