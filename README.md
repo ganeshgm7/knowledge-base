@@ -48,6 +48,7 @@
       - [AI Challenges and Responsibilities](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/AI-Challenges-and-Responsibilities.md)
       - [Security and Privacy in AI Systems](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Security-and-Privacy-in-AI-Systems.md)
       - [AI Governance and Compliance](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/Governance-and-Compliance.md)
+      - [AWS Certified AI Practitioner Study Notes](./Artificial-Intelligence-(AI)/AI-in-Cloud-Computing/AWS/AWS-Certified-AI-Practitioner-Study-Notes.md)
 
 ## Contributions
 
