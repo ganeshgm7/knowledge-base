@@ -27,6 +27,7 @@
     - [Recovery Point Objective (RPO) & Recovery Time Objective (RTO)](./Computer-Science-Basics/Disaster-Recovery/RPO-RTO.md)
 - **Programming Language**
   - [C#](./Programming-Language/C#)
+    - [Understanding the .NET Runtime & Development Lifecycle](./Programming-Language/C#/Understanding-Dot-NET-Runtime-Development-Lifecycle.md)
     - [C Sharp Coding Conventions and Best Practices](./Programming-Language/C#/C-Sharp-Coding-Conventions-and-Best-Practices.md)
 - **SQL**
   - [SQL Interview Questions](./SQL/Interview-Questions.md)
