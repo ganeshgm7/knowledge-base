@@ -41,7 +41,7 @@ A default constructor is a type of constructor that has no parameters. It is aut
 
 ### 🧪 Sample of a Default Constructor
 
-``csharp
+```
 
 public class Person
 {
@@ -56,7 +56,7 @@ public class Person
     }
 }
 
-``
+```
 
 ---
 
