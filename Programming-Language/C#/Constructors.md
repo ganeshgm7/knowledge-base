@@ -64,7 +64,9 @@ public class Person
 Person p = new Person(); // Default constructor is called automatically
 Console.WriteLine(p.Name); // Output: Unknown
 Console.WriteLine(p.Age);  // Output: 0
-``
+```
+
+---
 
 # 🧩 Parameterized Constructor
 
