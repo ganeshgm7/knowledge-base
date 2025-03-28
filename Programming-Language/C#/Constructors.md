@@ -42,7 +42,6 @@ A default constructor is a type of constructor that has no parameters. It is aut
 ### 🧪 Sample of a Default Constructor
 
 ```
-
 public class Person
 {
     public string Name;
@@ -55,14 +54,13 @@ public class Person
         Age = 0;
     }
 }
-
 ```
 
 ---
 
 ### 🚀 How to Use It
 
-``csharp
+```
 Person p = new Person(); // Default constructor is called automatically
 Console.WriteLine(p.Name); // Output: Unknown
 Console.WriteLine(p.Age);  // Output: 0
@@ -109,7 +107,7 @@ It allows you to pass values to an object at the time of creation, so you can in
 
 ## 🧪 Sample of Parameterized Constructor
 
-``csharp
+```
 public class Person
 {
     public string Name;
@@ -122,17 +120,17 @@ public class Person
         Age = age;
     }
 }
-``
+```
 
 ---
 
 ## 🚀 How to Use It
 
-``csharp
+```
 Person p = new Person("Alice", 28); // Passes data during object creation
 Console.WriteLine(p.Name); // Output: Alice
 Console.WriteLine(p.Age);  // Output: 28
-``
+```
 
 # ⚙️ Static Constructor
 
@@ -181,7 +179,7 @@ It ensures that all static data is ready before anything uses the class.
 
 ## 🧪 Sample of Static Constructor
 
-``csharp
+```
 public class Logger
 {
     public static string Config;
@@ -193,18 +191,18 @@ public class Logger
         Console.WriteLine("Static constructor executed");
     }
 }
-``
+```
 
 ---
 
 ## 🚀 Usage
 
-``csharp
+```
 Console.WriteLine(Logger.Config); 
 // Output: 
 // Static constructor executed
 // Logging Enabled
-``
+```
 
 
 # 🔒 Private Constructor
@@ -239,7 +237,7 @@ This means it cannot be accessed or called from outside the class.
 
 ## 🧪 Sample of Private Constructor
 
-``csharp
+```
 public class Utility
 {
     // Private Constructor
@@ -253,22 +251,22 @@ public class Utility
         Console.WriteLine("Work done.");
     }
 }
-``
+```
 
 ---
 
 ## 🚀 Usage
 
-``csharp
+```
 Utility.DoWork();      // ✅ Allowed
 // Utility u = new Utility(); // ❌ Error: Constructor is inaccessible
-``
+```
 
 ---
 
 ## 🧵 Private Constructor in Singleton Pattern
 
-``csharp
+```
 public class Singleton
 {
     private static Singleton instance;
@@ -284,7 +282,7 @@ public class Singleton
         return instance;
     }
 }
-``
+```
 
 
 # 🚀 Advanced Constructor Concepts in C#
@@ -306,11 +304,11 @@ Helps create objects in different ways based on available data.
 
 ### 🧾 Example
 
-``csharp
+```
 public Person() { }
 public Person(string name) { }
 public Person(string name, int age) { }
-``
+```
 
 ---
 
@@ -327,13 +325,13 @@ When one constructor calls another within the same class using the keyword `this
 
 ### 🧾 Syntax
 
-``csharp
+```
 public Person() : this("Unknown", 0) { }
 
 public Person(string name, int age) {
     // Actual initialization logic here
 }
-``
+```
 
 ---
 
@@ -350,12 +348,12 @@ When a derived class constructor calls a constructor from the base (parent) clas
 
 ### 🧾 Syntax
 
-``csharp
+```
 public class Employee : Person
 {
     public Employee(string name, int age) : base(name, age) { }
 }
-``
+```
 
 ---
 
@@ -367,9 +365,9 @@ A way to set properties after using the default constructor, without needing a p
 
 ### 🧾 Example
 
-``csharp
+```
 Person p = new Person { Name = "Alice", Age = 25 };
-``
+```
 
 # 🆕 Primary Constructor (C# 12)
 
@@ -398,7 +396,7 @@ It’s especially useful in classes that don’t have complex logic in the const
 
 ## 🧪 Primary Constructor Sample in C# 12
 
-``csharp
+```
 public class Person(string name, int age)
 {
     // readonly properties assigned using primary constructor parameters
@@ -411,14 +409,14 @@ public class Person(string name, int age)
         Console.WriteLine($"Hi, I'm {Name} and I'm {Age} years old.");
     }
 }
-``
+```
 
 ---
 
 ## 🚀 Usage
 
-``csharp
+```
 var person = new Person("Alice", 30);
 person.Introduce();
 // Output: Hi, I'm Alice and I'm 30 years old.
-``
+```
