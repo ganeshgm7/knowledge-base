@@ -8,15 +8,15 @@ Nullable value types in C# allow value types like `int`, `bool`, `double`, etc. 
 
 In C#, value types like `int`, `bool`, `DateTime` cannot store `null` by default.
 
-'''
+```
 int age = null; // ❌ Error: int cannot be null
-'''
+```
 
 Using **nullable value types**, you can allow them to hold `null`:
 
-'''
+```
 int? age = null; // ✅ OK
-'''
+```
 
 The `?` makes the value type nullable.
 
@@ -37,9 +37,9 @@ The `?` makes the value type nullable.
 
 C# introduced **nullable value types** to handle **missing or optional data**.
 
-'''
+```
 int? salary = null; // Represents "no data"
-'''
+```
 
 ---
 
@@ -56,10 +56,10 @@ You can make any value type nullable using `?`.
 
 ### Example
 
-'''
+```
 int? age = null;
 bool? isVerified = true;
-'''
+```
 
 ---
 
@@ -69,7 +69,7 @@ bool? isVerified = true;
 
 Returns `true` if a value is assigned.
 
-'''
+```
 int? age = 25;
 
 if (age.HasValue)
@@ -80,16 +80,16 @@ else
 {
     Console.WriteLine("No age provided.");
 }
-'''
+```
 
 ### ✅ `Value`
 
 Accesses the actual value (only use if `HasValue` is `true`).
 
-'''
+```
 int? age = 30;
 int realAge = age.Value;
-'''
+```
 
 ---
 
@@ -97,10 +97,10 @@ int realAge = age.Value;
 
 Returns a default value if the nullable type is `null`.
 
-'''
+```
 int? age = null;
 int displayAge = age ?? 0; // Returns 0 if age is null
-'''
+```
 
 ---
 
@@ -108,10 +108,10 @@ int displayAge = age ?? 0; // Returns 0 if age is null
 
 Allows safe access to members of a nullable type.
 
-'''
+```
 DateTime? birthdate = null;
 int? year = birthdate?.Year; // Returns null if birthdate is null
-'''
+```
 
 ---
 
@@ -119,19 +119,19 @@ int? year = birthdate?.Year; // Returns null if birthdate is null
 
 ### Explicit Cast (Unsafe if null)
 
-'''
+```
 int? x = 100;
 int y = (int)x;
-'''
+```
 
 ### Using `GetValueOrDefault()`
 
 Returns value or a default (`0` for `int`, `false` for `bool`, etc.)
 
-'''
+```
 int? x = null;
 int y = x.GetValueOrDefault(); // Returns 0
-'''
+```
 
 ---
 
@@ -161,7 +161,7 @@ Use when:
 
 ## 🔹 Example Code
 
-'''
+```
 using System;
 
 class Program
@@ -183,7 +183,7 @@ class Program
         Console.WriteLine("Display Age: " + displayAge);
     }
 }
-'''
+```
 
 ---
 
@@ -207,15 +207,15 @@ They allow you to explicitly declare **whether a reference type can be `null`** 
 
 In older versions of C#, **reference types** (like `string`, `object`, or custom classes) could always be assigned `null`:
 
-'''
+```
 string name = null; // Allowed
-'''
+```
 
 This causes a major problem if you try to use it without checking:
 
-'''
+```
 Console.WriteLine(name.Length); // 💥 NullReferenceException at runtime
-'''
+```
 
 With Nullable Reference Types:
 
@@ -254,19 +254,19 @@ The compiler helps you catch mistakes at **compile time** instead of runtime.
 
 Add this at the top of your C# file:
 
-'''
+```
 #nullable enable
-'''
+```
 
 ### ✅ Enable for the whole project
 
 Edit your `.csproj` file:
 
-'''
+```
 <PropertyGroup>
   <Nullable>enable</Nullable>
 </PropertyGroup>
-'''
+```
 
 ---
 
@@ -274,23 +274,23 @@ Edit your `.csproj` file:
 
 ### 🔴 Without Nullable Reference Types
 
-'''
+```
 string name = null;
 Console.WriteLine(name.Length); // 💥 Crashes at runtime
-'''
+```
 
 ### 🟢 With Nullable Reference Types
 
-'''
+```
 #nullable enable
 
 string name = null; // ⚠️ Compiler warning
 Console.WriteLine(name.Length); // ⚠️ Warning: possible null dereference
-'''
+```
 
 ### ✅ Correct Usage with `string?`
 
-'''
+```
 #nullable enable
 
 string? name = null;
@@ -299,7 +299,7 @@ if (name != null)
 {
     Console.WriteLine(name.Length); // Safe!
 }
-'''
+```
 
 ---
 
@@ -314,7 +314,7 @@ if (name != null)
 
 ## 🔹 Real-Life Example
 
-'''
+```
 #nullable enable
 
 public class User
@@ -332,7 +332,7 @@ void Greet(User user)
         Console.WriteLine($"You can also call me {user.Nickname}");
     }
 }
-'''
+```
 
 ---
 
@@ -352,6 +352,6 @@ void Greet(User user)
 - Nullable Reference Types are **not about new runtime behavior** — they’re a **compile-time safety feature**.
 - They help you write **cleaner**, **safer**, and **more predictable** C# code.
 - Highly recommended for **modern C# projects (8.0+)**.
-'''
+```
 
 ---
