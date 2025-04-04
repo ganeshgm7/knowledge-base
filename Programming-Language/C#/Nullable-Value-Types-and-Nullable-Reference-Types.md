@@ -352,6 +352,5 @@ void Greet(User user)
 - Nullable Reference Types are **not about new runtime behavior** — they’re a **compile-time safety feature**.
 - They help you write **cleaner**, **safer**, and **more predictable** C# code.
 - Highly recommended for **modern C# projects (8.0+)**.
-```
 
 ---

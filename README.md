@@ -28,7 +28,9 @@
 - **Programming Language**
   - [C#](./Programming-Language/C%23)
     - [Understanding the .NET Runtime & Development Lifecycle](./Programming-Language/C%23/Understanding-Dot-NET-Runtime-Development-Lifecycle.md)
+    - [Value Types and Reference Types](./Programming-Language/C%23/Value-Types-and-Reference-Types.md)
     - [Nullable Value Types and Reference Types](./Programming-Language/C%23/Nullable-Value-Types-and-Nullable-Reference-Types.md)
+    - [Record Types](./Programming-Language/C%23/Record-Types.md)
     - [Constructors in C#](./Programming-Language/C%23/Constructors.md)
     - [C Sharp Coding Conventions and Best Practices](./Programming-Language/C%23/C-Sharp-Coding-Conventions-and-Best-Practices.md)
 - **SQL**
