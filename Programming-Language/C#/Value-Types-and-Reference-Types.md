@@ -686,6 +686,8 @@ Console.WriteLine(student2.Age); // Output: 21
 - `student2` is a **new object** with a different age.
 
 ---
+---
+---
 
 
 # `==` vs `.Equals()` in C#
@@ -856,6 +858,7 @@ Here, we've overloaded the `==` operator so that it now compares the **content**
   - Override `.Equals()` and `GetHashCode()`.
   - Optionally, also overload `==` and `!=` for consistency.
 
+---
 ---
 ---
 
