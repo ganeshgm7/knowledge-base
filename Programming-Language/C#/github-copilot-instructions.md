@@ -1,4 +1,4 @@
-# C# Language Instructions for Scor.Helios Repository
+# C# Language Instructions
 
 ## General C# Guidelines
 - Use C# 12+ features compatible with .NET 8.
